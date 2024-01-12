@@ -9,9 +9,9 @@ esphome:
   name: ${name}
   comment: ${comment}
   ## Get rid of CDC error:
-  platformio_options:
-    board_build.extra_flags:
-      - "-DARDUINO_USB_CDC_ON_BOOT=0"
+ # platformio_options:
+ #   board_build.extra_flags:
+ #     - "-DARDUINO_USB_CDC_ON_BOOT=0"
 
 ## lilygo T7-S3  ESP32S3:
 esp32:
